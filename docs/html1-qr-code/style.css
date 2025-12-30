@@ -5,9 +5,8 @@ html{
       margin: 0;
       box-sizing: border-box;
       font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+      font-optical-sizing: auto;
+      font-style: normal;
 }
 html, body{
       height: 100%;
@@ -54,6 +53,7 @@ h1{
       font-size: 1.4rem;
       padding-top: 0.5em;
       padding-bottom: 0.5em;
+      color: hsl(218, 44%, 22%);
 }
 p{
       text-align: center;
@@ -63,6 +63,7 @@ p{
       padding-bottom: 1.5em;
       color: hsl(218, 44%, 22%);
       font-weight: 200;
+      max-width: 90%;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
       html{
